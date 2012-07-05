@@ -7,6 +7,14 @@
 		<servlet-name>Juntadas</servlet-name>
 		<url-pattern>/juntadas</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>JuntadasApi</servlet-name>
+		<servlet-class>com.rif.juntadas.api.JuntadasApiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>JuntadasApi</servlet-name>
+		<url-pattern>/api/*</url-pattern>
+	</servlet-mapping>
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
